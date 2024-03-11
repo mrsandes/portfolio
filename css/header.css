@@ -22,11 +22,11 @@
     padding: 0.625rem 1.25rem;
     color: lightgrey;
     font-size: 1.125rem;
+    text-decoration: none;
 }
 
 .header-menu a:hover {
     color: #141414;
-    text-decoration: underline;
 }
 
 @media (max-width: 50rem) {

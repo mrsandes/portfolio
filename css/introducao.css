@@ -25,9 +25,8 @@
 }
 
 .introducao h1 a {
-    border-bottom: 0.25rem solid greenyellow;
+    text-decoration: underline 0.25rem greenyellow;
     color: inherit;
-    text-decoration: none;
 }
 
 .introducao p {

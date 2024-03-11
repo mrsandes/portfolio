@@ -21,10 +21,9 @@
 }
 
 .experiencia-texto a {
-    border-bottom: 0.1875rem solid greenyellow;
+    text-decoration: underline 0.1875rem greenyellow;
     color: #141414;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .empresa {

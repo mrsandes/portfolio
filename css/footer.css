@@ -24,9 +24,8 @@
 }
 
 .footer-contato a {
-    border-bottom: 0.0625rem solid greenyellow;
+    text-decoration: underline 0.0625rem greenyellow;
     color: white;
-    text-decoration: none;
 }
 
 .footer-copy {

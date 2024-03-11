@@ -14,7 +14,7 @@
 .formacao::after {
     position: absolute;
     bottom: -3.75rem;
-    left: -3.125rem;
+    left: -9rem;
     z-index: 2;
     background: url(../img/detalhe2.svg) center/cover;
     width: 8rem;
