@@ -41,14 +41,14 @@
     color: white;
 }
 
-.faculdade-lista {
+.educacao-lista {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     margin-bottom: 3.75rem;
 }
 
-.faculdade-item {
+.educacao-item {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -58,24 +58,24 @@
     padding: 1.25rem;
 }
 
-.faculdade-item:hover {
+.educacao-item:hover {
     border-color: greenyellow;
 }
 
-.faculdade-tipo {
+.educacao-tipo {
     margin-bottom: 0.625rem;
     color: #a3a3a3;
     font-size: 0.875rem;
     text-transform: uppercase;
 }
 
-.faculdade-curso {
+.educacao-instituicao {
     position: relative;
     flex: 1;
     margin-bottom: 3.75rem;
 }
 
-.faculdade-curso::before {
+.educacao-instituicao::before {
     position: absolute;
     left: -1.375rem;
     background: linear-gradient(to bottom, yellow, greenyellow);
@@ -84,7 +84,7 @@
     content: "";
 }
 
-.faculdade-instituicao {
+.educacao-duracao {
     color: #a3a3a3;
 }
 
@@ -151,11 +151,11 @@
 }
 
 @media (max-width: 50rem) {
-    .faculdade-lista {
+    .educacao-lista {
         grid-template-columns: 1fr;
     }
 
-    .faculdade-curso {
+    .educacao-curso {
         margin-bottom: 0.625rem;
     }
 
@@ -181,9 +181,9 @@
         font-size: 1rem;
     }
 
-    .faculdade-tipo,
-    .faculdade-curso,
-    .faculdade-instituicao {
+    .educacao-tipo,
+    .educacao-curso,
+    .educacao-instituicao {
         font-size: 0.75rem;
     }
 
