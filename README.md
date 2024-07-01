@@ -1,1 +1,1 @@
-https://mrsandes.github.io/My-portifolio/
+https://mrsandes.github.io/portifolio/
